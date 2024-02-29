@@ -1,0 +1,22 @@
+Assalamualaikum, My name is Muhammad Bilal.
+
+here are the Below some explaination of the Final Project
+
+I created a (Product struct) to model each product with its name, description, price, and quantity.
+I made an (Inventory struct) to hold a collection of products in a vector.
+I defined an (enum called Action) to represent the different actions a user can take: adding a product, editing a product, generating a report, or exiting the program.
+
+Then, I built a few tools to make interactions easier:
+
+I made a get_input function to get user input and trim whitespace.
+I added a get_number function to ensure the user enters a valid number.
+Time to make actions happen!:
+
+I created a (create_product) function to gather information and construct a new product.
+I wrote an (update_product) function that handles both adding and editing:
+
+If the user enters a product name, it edits the existing one.
+If they just press Enter, it creates a new one.
+
+I put together a generate_report function to print a list of all products in the inventory.
+I set up a get_action function to repeatedly prompt the user for an action until they enter a valid one.
